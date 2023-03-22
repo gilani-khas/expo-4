@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 function Detective() {
-  const [sherlok] = useState("психопат");
+  const [sherlock] = useState("психопат");
   return (
     <>
-      <div>Шерлок - {sherlok}</div>
+      <div>Шерлок - {sherlock}</div>
     </>
   );
 }
